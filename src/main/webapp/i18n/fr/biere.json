@@ -1,0 +1,27 @@
+{
+    "keken2App": {
+        "biere" : {
+            "home": {
+                "title": "Bieres",
+                "createLabel": "Créer un nouveau Biere",
+                "createOrEditLabel": "Créer ou éditer un Biere"
+            },
+            "created": "Un nouveau Biere a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Biere avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Biere avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Biere {{ id }} ?"
+            },
+            "detail": {
+                "title": "Biere"
+            },
+            "nom": "Nom",
+            "type": "Type",
+            "degreeAlc": "Degree Alc",
+            "brasseur": "Brasseur",
+            "pays": "Pays",
+            "ville": "Ville",
+            "image": "Image"
+        }
+    }
+}

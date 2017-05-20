@@ -1,0 +1,10 @@
+{
+    "keken2App": {
+        "TypeBiere" : {
+            "null": "",
+            "BLONDE": "BLONDE",
+            "BRUNE": "BRUNE",
+            "AMBRE": "AMBRE"
+        }
+    }
+}

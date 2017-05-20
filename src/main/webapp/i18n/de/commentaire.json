@@ -1,0 +1,24 @@
+{
+    "keken2App": {
+        "commentaire" : {
+            "home": {
+                "title": "Commentaires",
+                "createLabel": "Commentaire erstellen",
+                "createOrEditLabel": "Commentaire erstellen oder bearbeiten"
+            },
+            "created": "Commentaire erstellt mit ID {{ param }}",
+            "updated": "Commentaire aktualisiert mit ID {{ param }}",
+            "deleted": "Commentaire gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Commentaire {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Commentaire"
+            },
+            "biereId": "Biere Id",
+            "userId": "User Id",
+            "note": "Note",
+            "commentaire": "Commentaire"
+        }
+    }
+}

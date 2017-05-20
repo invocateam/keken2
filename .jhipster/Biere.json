@@ -1,0 +1,43 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "TypeBiere",
+            "fieldValues": "BLONDE,BRUNE,AMBRE"
+        },
+        {
+            "fieldName": "degreeAlc",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "brasseur",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "pays",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ville",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "image",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170520012924",
+    "entityTableName": "biere",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

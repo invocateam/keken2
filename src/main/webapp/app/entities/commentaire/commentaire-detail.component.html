@@ -1,0 +1,37 @@
+
+<div *ngIf="commentaire">
+    <h2><span jhiTranslate="keken2App.commentaire.detail.title">Commentaire</span> {{commentaire.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="keken2App.commentaire.biereId">Biere Id</span></dt>
+        <dd>
+            <span>{{commentaire.biereId}}</span>
+        </dd>
+        <dt><span jhiTranslate="keken2App.commentaire.userId">User Id</span></dt>
+        <dd>
+            <span>{{commentaire.userId}}</span>
+        </dd>
+        <dt><span jhiTranslate="keken2App.commentaire.note">Note</span></dt>
+        <dd>
+            <span>{{commentaire.note}}</span>
+        </dd>
+        <dt><span jhiTranslate="keken2App.commentaire.commentaire">Commentaire</span></dt>
+        <dd>
+            <span>{{commentaire.commentaire}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'commentaire/'+ commentaire.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>
